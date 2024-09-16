@@ -1,0 +1,41 @@
+body{
+    background-color: rgba(128, 128, 128, 0.11);
+}
+header{
+    width: 100%;
+    overflow: hidden;
+    background-color: white;
+    display: flex;
+   /*  flex-direction: column; */
+    justify-content: space-evenly;
+}
+
+header h1{
+    background-color: black;
+    color: white;
+    max-height: 15%;
+    text-align: center;
+}
+
+nav{
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+  /*   flex-direction: column; */
+    justify-content: space-around;
+}
+
+nav h4{
+    cursor: pointer;
+    text-transform: capitalize;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 1em;
+    padding: 1em;
+}
+
+
+nav h4:hover{
+    color: white;
+    background: rgb(227,227,28);background: linear-gradient(90deg, rgba(227,227,28,1) 0%, rgba(121,9,81,1) 48%, rgba(0,212,255,1) 100%);
+    
+}
